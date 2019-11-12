@@ -3,12 +3,33 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
+  "configurations": [
+      
         {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${file}"
-        }
-    ]
-}
+            "type": "flex",
+            "altText": "Flex Message",
+            "contents": {
+              "type": "bubble",
+              "direction": "ltr",
+              "header": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://sv1.picz.in.th/images/2019/10/29/g3olav.jpg",
+                    "flex": 2,
+                    "size": "full"
+                  },
+                  {
+                    "type": "text",
+                    "text": "RTA Trip",
+                    "size": "lg",
+                    "align": "center",
+                    "weight": "bold",
+                    "color": "#138900"
+                  }
+                ]
+              }
+            }
+          }
